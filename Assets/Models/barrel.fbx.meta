@@ -9,7 +9,17 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Cylinder
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barrel
+    second: {fileID: 2100000, guid: d1fae535f44d8d1479a40cdc767b8b7c, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: barril textura 3
+    second: {fileID: 2800000, guid: 9102459c1639ece41a9f7ec7fa21bb55, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
