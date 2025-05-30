@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7688169642799206126}
   - component: {fileID: 2854838974319511351}
   - component: {fileID: 448030024933263759}
-  - component: {fileID: 114345344445330772}
+  - component: {fileID: 2913147542969592377}
   m_Layer: 0
   m_Name: CratePrefab
   m_TagString: Untagged
@@ -64,7 +64,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: f3dd637d536c9d54ea1e9db8f2c4e1a7, type: 3}
---- !u!114 &114345344445330772
+--- !u!114 &2913147542969592377
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -73,23 +73,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2463070271790140940}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d78ca96b4c4bd504a97cee67e4500e8d, type: 3}
+  m_Script: {fileID: 11500000, guid: ea27a3b61c140584aa04025c6e17fee7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!64 &587089530794534388
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6069580274350508516}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: f3dd637d536c9d54ea1e9db8f2c4e1a7, type: 3}
+  cost: 5
+  moneyManager: {fileID: 0}
 --- !u!1001 &611586454783947167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -159,12 +147,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7045162232e8b5a4788ac35cee88df63, type: 3}
---- !u!1 &6069580274350508516 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6649478787638966395, guid: 7045162232e8b5a4788ac35cee88df63,
-    type: 3}
-  m_PrefabInstance: {fileID: 611586454783947167}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6069580274350872004 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6649478787638535259, guid: 7045162232e8b5a4788ac35cee88df63,

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3866650633183689025}
   - component: {fileID: 2002804588603191318}
   - component: {fileID: 232030634692971773}
-  - component: {fileID: 114569253021847490}
+  - component: {fileID: 2957726772132207208}
   m_Layer: 0
   m_Name: BarrePrefab
   m_TagString: Untagged
@@ -64,7 +64,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 91e4b1d7dc034ce45b8cbc7e02b71654, type: 3}
---- !u!114 &114569253021847490
+--- !u!114 &2957726772132207208
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -73,7 +73,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5493341903380916876}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d78ca96b4c4bd504a97cee67e4500e8d, type: 3}
+  m_Script: {fileID: 11500000, guid: ea27a3b61c140584aa04025c6e17fee7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &6132104004058410904
