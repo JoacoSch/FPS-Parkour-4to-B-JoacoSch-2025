@@ -2,25 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoneyManager : MonoBehaviour
+public class HealthManager : MonoBehaviour
 {
-    public float money;
+    public float health;
     public UIManager uiManager;
 
     void Start()
     {
         uiManager = FindObjectOfType<UIManager>();
     }
-    public bool UpdateMoney(float amount)
+    public bool UpdateHp(float amount)
     {
-        if (money + amount < 0)
+        if (health + amount <= 0)
         {
             return false;
         }
         else
         {
-            money += amount;
-            uiManager.UpdateMoneyText(money.ToString());
+            health += amount;
+            uiManager.UpdateHpText(health.ToString());
             return true;
         }
 
