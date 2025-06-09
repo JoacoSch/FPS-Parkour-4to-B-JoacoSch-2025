@@ -14,6 +14,7 @@ public class DamageScript : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+        Debug.Log("p");
         if (collision.gameObject.CompareTag("Player"))
         {
             if (healthManager.UpdateHp(-damage))
