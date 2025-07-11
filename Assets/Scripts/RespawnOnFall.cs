@@ -20,7 +20,7 @@ public class RespawnOnFall : MonoBehaviour
         if (transform.position.y < yRespawnValue)
         {
             //Debug.Log("Me caí :(");
-            SceneManager.LoadScene("FPS Parkour");
+            SceneManager.LoadScene("FPS Parkour 1");
         }
     }
 }

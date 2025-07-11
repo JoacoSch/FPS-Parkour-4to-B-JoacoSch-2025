@@ -23,7 +23,7 @@ public class DamageScript : MonoBehaviour
             }
             else
             {
-                SceneManager.LoadScene("FPS Parkour");
+                SceneManager.LoadScene("FPS Parkour 1");
             }
         }
     }
